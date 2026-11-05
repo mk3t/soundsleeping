@@ -4,6 +4,16 @@
 
 内置 13 段水声、轻雨、溪流、音铃和雨声筒，支持完整试听、长段随机接续、暂停继续、淡出结束及添加自己的音频。通常只有一段声音在播放，仅在换段时短暂交叉淡化；长播会复用素材，不会生成新的自然事件。
 
+## 界面预览
+
+<p align="center">
+  <a href="docs/images/android-home.png"><img src="docs/images/android-home.png" width="240" alt="眠声首页：选择喜欢的声音并开始播放"></a>
+  <a href="docs/images/android-settings.png"><img src="docs/images/android-settings.png" width="240" alt="播放设置：长段变化与声音逐渐减弱"></a>
+  <a href="docs/images/android-help.png"><img src="docs/images/android-help.png" width="240" alt="随时开听：试听、选择声音和播放中调整的说明"></a>
+</p>
+
+首页选音 · 播放设置 · 随时开听。以上为 0.2.1 在 Android 15 模拟器中的实际界面，点击图片可查看大图。
+
 ## 下载
 
 打开本仓库的 [Releases](https://github.com/mk3t/soundsleeping/releases)，选择 `v0.2.1` 体验版，下载下列文件。不要把 GitHub 自动附带的 “Source code” 压缩包当作播放器。
@@ -12,6 +22,8 @@
 | --- | --- | --- |
 | 安卓 | [轻量 APK](https://github.com/mk3t/soundsleeping/releases/download/v0.2.1/SoundSleeping-Android-0.2.1.apk)，约 64 MB | [Original APK](https://github.com/mk3t/soundsleeping/releases/download/v0.2.1/SoundSleeping-Android-0.2.1-Original.apk)，约 345 MB |
 | 电脑 | [轻量 ZIP](https://github.com/mk3t/soundsleeping/releases/download/v0.2.1/SoundSleeping-Desktop-0.2.1.zip)，约 63 MB | [Original ZIP](https://github.com/mk3t/soundsleeping/releases/download/v0.2.1/SoundSleeping-Desktop-0.2.1-Original.zip)，约 345 MB |
+
+想核对下载是否完整，可参照 [SHA-256 核对方法](VERIFY_DOWNLOAD.md)，与同一次 Release 的 `SHA256SUMS.txt` 比较。
 
 轻量版使用 AAC 256 kbps；Original 版保留此前处理好的 FLAC，没有再次进行 AAC 压缩。两版功能及素材内容相同。部分实录来源是 MP3 预览，Original 不代表全部素材都是原始无损录音母带。
 
